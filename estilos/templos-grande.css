@@ -32,16 +32,6 @@
         border-radius: 5px;
     }
 
-    .navigation {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 1rem;
-    }
-
-    .navigation.open {
-    display: flex;
-    }
 
     /* Título principal */
 

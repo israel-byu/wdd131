@@ -17,7 +17,6 @@ ultimaModificacao.textContent = `Última modificação: ${document.lastModified}
 
 const menuButton = document.querySelector("#menu");
 const navigation = document.querySelector("nav");
-const navigation = document.querySelector(".navigation");
 
 menuButton.addEventListener("click", () => {
 
