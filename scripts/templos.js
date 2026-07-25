@@ -8,7 +8,10 @@ anoAtual.textContent = new Date().getFullYear();
 
 // Data da última modificação
 const ultimaModificacao = document.querySelector("#ultimaModificacao");
-ultimaModificacao.textContent = `Última modificação: ${document.lastModified}`;
+
+if (ultimaModificacao) {
+    ultimaModificacao.textContent = `Última modificação: ${document.lastModified}`;
+}
 
 
 // =====================================
@@ -21,11 +24,14 @@ const navigation = document.querySelector("nav");
 menuButton.addEventListener("click", () => {
 
     navigation.classList.toggle("open");
+    const isOpen = navigation.classList.contains("open");
 
-    if (navigation.classList.contains("open")) {
-        menuButton.textContent = "✖";
+    menuButton.setAttribute("aria-expanded", isOpen);
+
+   if (isOpen) {
+       menuButton.textContent = "✖";
     } else {
-        menuButton.textContent = "☰";
+       menuButton.textContent = "☰";
     }
 
 });
