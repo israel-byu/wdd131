@@ -75,6 +75,17 @@ nav a:hover {
     color: #000;
 }
 
+.navigation {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation.open {
+    display: flex;
+}
+
 /* ==========================
    Main
 ========================== */
