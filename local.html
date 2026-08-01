@@ -1,0 +1,190 @@
+        <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brasil - Página do País</title>
+
+    <meta name="description" content="Informações sobre o Brasil, sua população, capital e clima.">
+
+    <meta name="author" content="Israel Maciel">
+
+
+    <link rel="stylesheet" href="estilos/local.css">
+
+    <link rel="stylesheet" href="estilos/local-large.css">
+
+
+    <script src="scripts/local.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>Brasil</h1>
+
+</header>
+
+
+
+<main>
+
+
+    <section class="hero">
+
+
+        <picture>
+
+            <source 
+            media="(max-width: 700px)"
+            srcset="imagens/brasil-small.webp">
+
+
+            <img 
+            src="imagens/brasil-large.webp"
+            alt="Paisagem do Brasil"
+            loading="lazy">
+
+        </picture>
+
+
+
+        <section class="data">
+
+            <h2>Dados</h2>
+
+
+            <p>
+                <strong>Area:</strong>
+                8.515.767 sq km
+            </p>
+
+
+            <p>
+                <strong>População:</strong>
+                203.062.512
+            </p>
+
+
+            <p>
+                <strong>Capital:</strong>
+                Brasília
+            </p>
+
+
+            <p>
+                <strong>Linguagem:</strong>
+                Portugues
+            </p>
+
+
+            <p>
+                <strong>Moeda:</strong>
+                Real Brasileiro
+            </p>
+
+
+            <p>
+                <strong>Fuso Horário:</strong>
+                UTC-3
+            </p>
+
+
+            <p>
+                <strong>Código DDI:</strong>
+                +55
+            </p>
+
+
+            <p>
+                <strong>Domínio na Internet (TLD):</strong>
+                .br
+            </p>
+
+
+        </section>
+
+
+
+
+        <section class="weather">
+
+
+            <h2>Clima</h2>
+
+
+            <!-- Aparece no mobile -->
+            <img 
+            src="images/weather.svg"
+            alt="icone de tempo parcialmente nublado">
+
+
+
+            <p>
+                <strong>Temperatura:</strong>
+                <span id="temperatura">10</span> °C
+            </p>
+
+
+            <p>
+                <strong>Condições:</strong>
+                Parcialmente Nublado
+            </p>
+
+
+            <p>
+                <strong>Vento:</strong>
+                <span id="wind">5</span> km/h
+            </p>
+
+
+            <p>
+                <strong>Sensação Térmica:</strong>
+                <span id="windchill"></span>
+            </p>
+
+
+
+        </section>
+
+
+
+    </section>
+
+
+</main>
+
+
+
+
+<footer>
+
+
+    <p>
+        © <span id="year"></span>
+        🌎 Israel Maciel 🌎
+        Brasil
+    </p>
+
+
+    <p>
+        Last Modification:
+        <span id="modified"></span>
+    </p>
+
+
+</footer>
+
+
+
+</body>
+
+</html>

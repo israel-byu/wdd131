@@ -1,0 +1,215 @@
+/* =========================
+   GLOBAL VARIABLES
+========================= */
+
+:root {
+
+    --primary-color: #009c3b;
+    --secondary-color: #ffdf00;
+    --dark-color: #002776;
+    --white-color: #ffffff;
+    --text-color: #222222;
+
+}
+
+
+
+/* =========================
+   RESET
+========================= */
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+
+}
+
+
+
+
+/* =========================
+   HEADER
+========================= */
+
+
+header {
+
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+/* =========================
+   HERO IMAGE
+========================= */
+
+
+.hero picture,
+.hero img {
+
+    display: block;
+    width: 100%;
+
+}
+
+
+.hero img {
+
+    height: auto;
+
+}
+
+
+
+
+
+/* =========================
+   DATA SECTION
+========================= */
+
+
+.data {
+
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+
+
+.data h2 {
+
+    font-size: 2rem;
+    margin-top: 0;
+
+}
+
+
+
+.data p {
+
+    margin: .6rem 0;
+
+}
+
+
+.data strong {
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* =========================
+   WEATHER SECTION
+========================= */
+
+
+.weather {
+
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+
+.weather h2 {
+
+    font-size: 2rem;
+
+}
+
+
+.weather img {
+
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+
+}
+
+
+
+.weather p {
+
+    margin: .6rem 0;
+
+}
+
+
+
+.weather strong {
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer {
+
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+
+footer p {
+
+    margin: .5rem;
+
+}
+
+
+
+
+/* =========================
+   SMALL DEVICES
+========================= */
+
+
+@media screen and (max-width: 700px) {
+
+
+    header h1 {
+
+        font-size: 2rem;
+
+    }
+
+
+}
